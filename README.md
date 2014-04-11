@@ -2,7 +2,7 @@ BlogReaderv2
 ============
 
 This is an improved BlogReader application that I have created for the programming mobile
-devices courses at my university. :stuck_out_tongue_winking_eye:
+devices course at my university. :stuck_out_tongue_winking_eye:
 
 I have introduced some new iOS elements to this improved BlogReader such as:
 - UITabViewController 
