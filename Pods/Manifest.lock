@@ -1,0 +1,13 @@
+PODS:
+  - Objective-C-HMTL-Parser (0.0.1)
+  - SAMCache (0.3.0)
+
+DEPENDENCIES:
+  - Objective-C-HMTL-Parser
+  - SAMCache
+
+SPEC CHECKSUMS:
+  Objective-C-HMTL-Parser: f41470bfbac27dff184cbd4dc3059c3d7c15e663
+  SAMCache: 82ab8d9c26319d7544a35c6eeafe574c3ba2f7d2
+
+COCOAPODS: 0.29.0

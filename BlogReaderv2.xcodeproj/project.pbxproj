@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255E2703FDF54A6190381EF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B59AB8F3A4134AD7978C121B /* libPods.a */; };
 		362C050118F333B60041E47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C050018F333B60041E47C /* Foundation.framework */; };
 		362C050318F333B60041E47C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C050218F333B60041E47C /* CoreGraphics.framework */; };
 		362C050518F333B60041E47C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C050418F333B60041E47C /* UIKit.framework */; };
@@ -19,6 +20,13 @@
 		362C051C18F333B60041E47C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362C050418F333B60041E47C /* UIKit.framework */; };
 		362C052418F333B60041E47C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 362C052218F333B60041E47C /* InfoPlist.strings */; };
 		362C052618F333B60041E47C /* BlogReaderv2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C052518F333B60041E47C /* BlogReaderv2Tests.m */; };
+		362C053018F333D20041E47C /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362C052F18F333D20041E47C /* MainStoryBoard.storyboard */; };
+		362C053318F335230041E47C /* ProfessorWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C053218F335230041E47C /* ProfessorWebViewController.m */; };
+		362C053618F335360041E47C /* StudentsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C053518F335360041E47C /* StudentsWebViewController.m */; };
+		362C053918F3355C0041E47C /* ProfessorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C053818F3355C0041E47C /* ProfessorTableViewController.m */; };
+		362C053C18F335680041E47C /* StudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C053B18F335680041E47C /* StudentsTableViewController.m */; };
+		362C053F18F34B790041E47C /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C053E18F34B790041E47C /* BlogPost.m */; };
+		36444A4A18F3F3BB0030C577 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36444A4918F3F3BB0030C577 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,21 @@
 		362C052118F333B60041E47C /* BlogReaderv2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderv2Tests-Info.plist"; sourceTree = "<group>"; };
 		362C052318F333B60041E47C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		362C052518F333B60041E47C /* BlogReaderv2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderv2Tests.m; sourceTree = "<group>"; };
+		362C052F18F333D20041E47C /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		362C053118F335230041E47C /* ProfessorWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfessorWebViewController.h; sourceTree = "<group>"; };
+		362C053218F335230041E47C /* ProfessorWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfessorWebViewController.m; sourceTree = "<group>"; };
+		362C053418F335360041E47C /* StudentsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsWebViewController.h; sourceTree = "<group>"; };
+		362C053518F335360041E47C /* StudentsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsWebViewController.m; sourceTree = "<group>"; };
+		362C053718F3355C0041E47C /* ProfessorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfessorTableViewController.h; sourceTree = "<group>"; };
+		362C053818F3355C0041E47C /* ProfessorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfessorTableViewController.m; sourceTree = "<group>"; };
+		362C053A18F335680041E47C /* StudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsTableViewController.h; sourceTree = "<group>"; };
+		362C053B18F335680041E47C /* StudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableViewController.m; sourceTree = "<group>"; };
+		362C053D18F34B790041E47C /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		362C053E18F34B790041E47C /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		36444A4918F3F3BB0030C577 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		36A4424218F3F096007A5A89 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B59AB8F3A4134AD7978C121B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD96F4C9FE344396B69DC5FF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36444A4A18F3F3BB0030C577 /* libxml2.dylib in Frameworks */,
 				362C050318F333B60041E47C /* CoreGraphics.framework in Frameworks */,
 				362C050518F333B60041E47C /* UIKit.framework in Frameworks */,
 				362C050118F333B60041E47C /* Foundation.framework in Frameworks */,
+				255E2703FDF54A6190381EF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +102,12 @@
 		362C04F418F333B60041E47C = {
 			isa = PBXGroup;
 			children = (
+				36A4424218F3F096007A5A89 /* Podfile */,
 				362C050618F333B60041E47C /* BlogReaderv2 */,
 				362C051F18F333B60041E47C /* BlogReaderv2Tests */,
 				362C04FF18F333B60041E47C /* Frameworks */,
 				362C04FE18F333B60041E47C /* Products */,
+				FD96F4C9FE344396B69DC5FF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +123,12 @@
 		362C04FF18F333B60041E47C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36444A4918F3F3BB0030C577 /* libxml2.dylib */,
 				362C050018F333B60041E47C /* Foundation.framework */,
 				362C050218F333B60041E47C /* CoreGraphics.framework */,
 				362C050418F333B60041E47C /* UIKit.framework */,
 				362C051918F333B60041E47C /* XCTest.framework */,
+				B59AB8F3A4134AD7978C121B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +138,18 @@
 			children = (
 				362C050F18F333B60041E47C /* AppDelegate.h */,
 				362C051018F333B60041E47C /* AppDelegate.m */,
+				362C053D18F34B790041E47C /* BlogPost.h */,
+				362C053E18F34B790041E47C /* BlogPost.m */,
+				362C052F18F333D20041E47C /* MainStoryBoard.storyboard */,
 				362C051218F333B60041E47C /* Images.xcassets */,
+				362C053718F3355C0041E47C /* ProfessorTableViewController.h */,
+				362C053818F3355C0041E47C /* ProfessorTableViewController.m */,
+				362C053118F335230041E47C /* ProfessorWebViewController.h */,
+				362C053218F335230041E47C /* ProfessorWebViewController.m */,
+				362C053A18F335680041E47C /* StudentsTableViewController.h */,
+				362C053B18F335680041E47C /* StudentsTableViewController.m */,
+				362C053418F335360041E47C /* StudentsWebViewController.h */,
+				362C053518F335360041E47C /* StudentsWebViewController.m */,
 				362C050718F333B60041E47C /* Supporting Files */,
 			);
 			path = BlogReaderv2;
@@ -151,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362C052918F333B60041E47C /* Build configuration list for PBXNativeTarget "BlogReaderv2" */;
 			buildPhases = (
+				1E802C71B1B249F9B7A1B37F /* Check Pods Manifest.lock */,
 				362C04F918F333B60041E47C /* Sources */,
 				362C04FA18F333B60041E47C /* Frameworks */,
 				362C04FB18F333B60041E47C /* Resources */,
+				6B94BD520AB64313948AB8B3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362C053018F333D20041E47C /* MainStoryBoard.storyboard in Resources */,
 				362C050B18F333B60041E47C /* InfoPlist.strings in Resources */,
 				362C051318F333B60041E47C /* Images.xcassets in Resources */,
 			);
@@ -234,11 +277,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E802C71B1B249F9B7A1B37F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B94BD520AB64313948AB8B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		362C04F918F333B60041E47C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362C053F18F34B790041E47C /* BlogPost.m in Sources */,
+				362C053318F335230041E47C /* ProfessorWebViewController.m in Sources */,
+				362C053918F3355C0041E47C /* ProfessorTableViewController.m in Sources */,
+				362C053618F335360041E47C /* StudentsWebViewController.m in Sources */,
+				362C053C18F335680041E47C /* StudentsTableViewController.m in Sources */,
 				362C051118F333B60041E47C /* AppDelegate.m in Sources */,
 				362C050D18F333B60041E47C /* main.m in Sources */,
 			);
@@ -354,6 +435,7 @@
 		};
 		362C052A18F333B60041E47C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD96F4C9FE344396B69DC5FF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +449,7 @@
 		};
 		362C052B18F333B60041E47C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD96F4C9FE344396B69DC5FF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +520,7 @@
 				362C052B18F333B60041E47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		362C052C18F333B60041E47C /* Build configuration list for PBXNativeTarget "BlogReaderv2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +529,7 @@
 				362C052E18F333B60041E47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
