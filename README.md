@@ -28,9 +28,19 @@ There are two external dependencies that I have used
     to avoid unnecessary network requests to get data that has been retrieved. The small library
     allows for the store of objects or values using a `key` -> `value` storage mechanism.
   
+These dependencies were installed using `CocoaPods`. 
+The Podfile is the following:
 
+```
+pod 'Objective-C-HMTL-Parser'
+pod 'SAMCache'
+```
 
+and the installation is done with the following command:
 
+```sh
+pod
+```
 
 
 [1]:https://github.com/zootreeves/Objective-C-HMTL-Parser
