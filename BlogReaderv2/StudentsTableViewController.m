@@ -83,11 +83,11 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     NSString * studentPost = [self.blogPostTitleArray objectAtIndex:indexPath.row];
+    cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:16.0];
     if (![studentPost isEqualToString:@""]) {
         cell.textLabel.text = studentPost;
     } else {
         cell.textLabel.text = @"[Notice] No post by student";
-//        cell.textLabel.font = [UIFont fontWithName:<#(NSString *)#> size:<#(CGFloat)#>]
     }
     
     
@@ -175,10 +175,11 @@
     
 }
 /**
- *  <#Description#>
+ *  This helper method retrieves the student blog url and stores them in 
+ * an NSMutableArray
  *
- *  @param urlNodeArray  <#urlNodeArray description#>
- *  @param urlStoreArray <#urlStoreArray description#>
+ *  @param urlNodeArray  NSArray The HTMLNode array that contains the url info
+ *  @param urlStoreArray NSMutable Where the url will be stored
  */
 - (void)retrieveStudentUrl:(NSArray **)urlNodeArray :(NSMutableArray *)urlStoreArray {
     for (HTMLNode * node in *urlNodeArray) {
@@ -189,10 +190,10 @@
     
 }
 /**
- *  Description
- *
- *  @param iconNodeArray  <#iconNodeArray description#>
- *  @param iconStoreArray <#iconStoreArray description#>
+ *  This helper method retrieves the student icon url and stores them in
+ *  an NSMutableArray
+ *  @param iconNodeArray  NSArray array of HTMLNode that contain the icon's url
+ *  @param iconStoreArray NSMutableArray the array where the url strings will be stored
  */
 - (void) retrieveStudentIcon:(NSArray **)iconNodeArray :(NSMutableArray *)iconStoreArray {
     for (HTMLNode * node in *iconNodeArray) {
@@ -203,10 +204,11 @@
     }
 }
 /**
- *  <#Description#>
+ *  This helper method retrieves the student's posts and stores them in
+ *  an NSMutableArray
  *
- *  @param postNodeArray  <#postNodeArray description#>
- *  @param postStoreArray <#postStoreArray description#>
+ *  @param postNodeArray  NSArray the array of HTMLNode where the posts reside
+ *  @param postStoreArray NSMutableArray the array where the posts will be stored
  */
 - (void) retrieveStudentPost:(NSArray **)postNodeArray :(NSMutableArray *)postStoreArray {
     for (HTMLNode * node in *postNodeArray) {
@@ -223,10 +225,10 @@
 /**
  *  This method determines whether an NSString matches an NSRegularExpression
  *
- *  @param regex  NSRegularExpression
- *  @param string <#string description#>
+ *  @param regex  NSRegularExpression the regex to use
+ *  @param string NSString The string to search
  *
- *  @return <#return value description#>
+ *  @return YES if the regex can be matched NO otherwise
  */
 - (BOOL) isRegex:(NSRegularExpression *)regex InString:(NSString *)string {
     BOOL isRegex = false;
